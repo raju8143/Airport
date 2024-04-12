@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    background-image: url('https://upgradedpoints.com/wp-content/uploads/2023/03/Clark_Construction_Group_KCI_New_Terminal-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-right{
+    padding-left: 500px;
+}
+.element{
+    margin: 20px;
+    padding-bottom: 700px;
+    padding: solid 10px;
+    color:black;
+
+}
+.a-element{
+    padding-left: 200px;
+    padding-bottom: 700px;
+    color:black;
+}
+.head{
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    margin-bottom: 1500%;
+}
+.heading{
+    padding-left: 20px;
+ 
+}
+.head-div{
+    padding-right: 20px;
+    padding-left: 700px;
+    padding-top: 200px;
+    color:rgb(13, 255, 0);
+}
+.button{
+    color:red;  
+}
+.image{
+    background-color: white;
+}
+.heading-h1{
+    padding-top: 50px;
+    color:rgb(255, 102, 0)
+}
+.form{
+    color:rgb(0, 119, 128);
+    padding-bottom: 50px;
+ 
+}
+.one{
+    height: 5vh;
+    width: 15vw;
+}
+.tw0{
+    color:blue;
+}
+.para{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+
