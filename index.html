@@ -7,35 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="heading" id="home">
-        <h1 class="heading-h1">𝓛𝓞𝓡𝓔𝓜</h1>
-         <div class="navbar-right">
-            <a class="element" href="#home">HOME</a>
-            <a class="element" href="#features">FEATURES</a> 
-            <a class="element" href="#prices">PRICES</a>
-            <a class="element" href="#about">ABOUT</a>
-            <a class="element" href="#contact us">CONTACT US</a>
-            <a href="http://127.0.0.1:5501/html14/index.html" class="a-element" href="#login">LOGIN</a>
-            <br>
-            <br>
+    <div class="main">
+        <h1>Airport</h1>
+        <h3>Enter your login credentials</h3>
+        <form action="">
+            <label for="first">
+                  Username:
+              </label>
+            <input type="text"
+                   id="first"
+                   name="first"
+                   placeholder="Enter your Username" required>
+ 
+            <label for="password">
+                  Password:
+              </label>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   placeholder="Enter your Password" required>
+ 
+            <div class="wrap">
+                <button type="submit"
+                        onclick="solve()">
+                    Submit
+                </button>
             </div>
-            <div class="para" id="about">
-            <p>An airport is an aerodrome with extended facilities, mostly for commercial air transport.Airports usually consist of a landing area, which comprises an aerially accessible open space including at least one operationally active surface such as a runway for a plane to take off and to land or a helipad,and often includes adjacent utility buildings such as control towers, hangars and terminals, to maintain and monitor aircraft. Larger airports may have airport aprons, taxiway bridges, air traffic control centres, passenger facilities such as restaurants and lounges, and emergency services. In some countries, the US in particular, airports also typically have one or more fixed-base operators, serving general aviation.</p>
-            </div>
-            <div class="head-div">
-            <h1>CITY<br>AIRPORT</h1>
-            <br>
-            <input type="button" class="button" value="LEARN MORE">
-            <div class="form" id="contact us">
-                <h2>𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝒰𝓈!</h2>
-                <input type="text" class="one" placeholder="Name......">
-                <br>
-                <br>
-                <input type="text" class="one" placeholder="Email....."> <br>
-                <br>
-                <br>
-                <input type="button" class="two" value="submit">
-            </div>
+        </form>
+        <a href="http://127.0.0.1:5501/airport/index.html">
+            <button>Back</button>
+        </a>
+        <p>Not registered? 
+              <a href="#"
+               style="text-decoration: none;">
+                Create an account
+            </a>
+           
+        </p>
     </div>
 </body>
-</html> 
+</html>
