@@ -1,65 +1,73 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    line-height: 1.5;
-    min-height: 100vh;
-    background: #f3f3f3;
-    flex-direction: column;
-    margin: 0;
+body{
+    background-color: antiquewhite;
+    background-image: linear-gradient(orange, white, green);
 }
- 
-.main {
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 10px 20px;
-    transition: transform 0.2s;
-    width: 500px;
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    padding-left: 70px;
+    border: 3px solid green;
+    box-shadow: 0 0 3px red;
+}
+.h1{
     text-align: center;
+    color:black;
+    font-style: oblique;
+    text-shadow: 0 0 3px blue;
 }
- 
-h1 {
-    color: #4CAF50;
+.head1{
+    padding-top: 5px;
+    padding-left: 10px;
+    color:black;  
+    text-shadow: 0 0 3px #FF0000;
+    background-image: url('https://indusscrolls.com/wp-content/uploads/2022/09/sabarimala-750x375.jpg');
 }
- 
-label {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    text-align: left;
-    color: #555;
-    font-weight: bold;
+.button{
+    margin-left:20px;
+    margin-top: 40px;
+    margin-right: 80px;
+    color: green;
+    box-shadow: 10px;
+    text-shadow: 10px;
 }
- 
- 
-input {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.button:hover{
+    background-color: aqua;
+    transition-duration: 1s;
 }
- 
-button {
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    background-color: #4CAF50;
-    width: 100%;
-    font-size: 16px;
+.heading div{
+    height:400px;
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    grid-gap: 200px;
+    display: grid;
+    border: 2px solid red;
+    background-image: url('https://www.enjazproperty.com/en/wp-content/uploads/2020/03/com-3-project-copy.jpg');
+    background-repeat: no-repeat;
 }
- 
-.wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.heading div:hover{
+    box-shadow: 0 0 10px red;
+    transition-duration: 1s;
 }
+.button1{
+    margin-left: 700px;
+    margin-top: 20px;
+    padding-block: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 10px;
+    color: solid black;
+    font-style:italic;
+    border-radius: 4px;
+}
+.button1:hover{
+    background-color:red;
+    transition-duration: 1s;
+}
+
+
+
+
